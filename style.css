@@ -19,6 +19,7 @@ h1 {
 
 }
 
+
 .links {
     display: inline-block;
 
@@ -52,8 +53,38 @@ h1 {
 
 /* .active {
     /* padding-left: 3.5px; */
-    /* border-bottom: 1px solid rgb(25, 161, 7); */
+/* border-bottom: 1px solid rgb(25, 161, 7); */
 
+.hero_section {
+    margin-left: 90px;
+    font-weight: 400;
+    /* width: 350px; */
+    display: inline-block;
+}
+
+.main_pts {
+    /* width: 350px; */
+    font-size: 19px;
+    margin-bottom: 0px;
+}
+
+.main_ptss {
+    /* width: 350px; */
+    margin-top: 0;
+    font-size: 19px;
+}
+
+.hero_h1 {
+    margin-bottom: 0px;
+    font-size: 40px;
+}
+
+.hero_img {
+    width: 200px;
+    height: auto;
+
+
+}
 
 
 
