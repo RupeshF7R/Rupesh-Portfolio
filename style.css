@@ -13,7 +13,7 @@ body {
 h1 {
     display: inline-block;
     font-weight: 300;
-    cursor: pointer;
+    /* cursor: pointer; */
     /* padding-right: 700px; */
 
 
@@ -59,7 +59,12 @@ h1 {
     margin-left: 90px;
     font-weight: 400;
     /* width: 350px; */
-    display: inline-block;
+    display: flex;
+    align-items: center;
+}
+
+.main_box {
+    align-items: center;
 }
 
 .main_pts {
@@ -71,7 +76,7 @@ h1 {
 .main_ptss {
     /* width: 350px; */
     margin-top: 0;
-    font-size: 19px;
+    font-size: 25px;
 }
 
 .hero_h1 {
@@ -82,9 +87,19 @@ h1 {
 .hero_img {
     width: 200px;
     height: auto;
+    margin-left: 90px;
+    border-radius: 8% 100% 10% 100% / 10% 10% 10% 35%;
+    align-items: center;
 
 
 }
+
+.hero_img:hover {
+    width: 400px;
+
+
+}
+
 
 
 
